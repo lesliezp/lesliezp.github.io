@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小酒馆</title>
+  <subtitle>First Blood -&gt; Dominating -&gt; Wicked Sick -&gt; God Like -&gt; Holy Shit</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-03-18T14:16:57.568Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>布牧</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/03/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2017/03/18/我的第一篇博客/</id>
+    <published>2017-03-18T14:05:32.348Z</published>
+    <updated>2017-03-18T14:16:57.568Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>标签（空格分隔）： 随笔</p>
+<hr>
+<p>很激动的写下这些文字，我的第一个属于自己的博客诞生了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h1&gt;&lt;p&gt;标签（空格分隔）： 随笔&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;很激动的写下这些文字，我的第一个属于自己的博客诞生
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
