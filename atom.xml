@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-03-26T04:21:48.886Z</updated>
+  <updated>2017-03-31T14:48:34.255Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,74 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自学笔记-Nodejs开放知识体系图</title>
+    <link href="http://yoursite.com/2017/03/31/%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0-nodejs%E5%BC%80%E6%94%BE%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E5%9B%BE/"/>
+    <id>http://yoursite.com/2017/03/31/自学笔记-nodejs开放知识体系图/</id>
+    <published>2017-03-31T13:31:43.095Z</published>
+    <updated>2017-03-31T14:48:34.255Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Nodejs开放知识体系图"><a href="#Nodejs开放知识体系图" class="headerlink" title="Nodejs开放知识体系图"></a>Nodejs开放知识体系图</h1><hr>
+<p>首先感谢极客学院的课程，这里写下自学的笔记及学习的感悟等。<strong>本文禁止转载及商用</strong></p>
+<p>一.预备知识（本阶段主要介绍JavaScript的一些基本知识。</p>
+<p>1.Node.js编程：JavaScript的语言基础（学习时间：2017/3/31）</p>
+<p>1.1 语法</p>
+<p>​    标识符（变量名/函数名/对象名/对象的成员名/函数参数）：大小敏感、匈牙利命名法（类型+表意）</p>
+<p>​    严格模式：首行（“use strict”；），var定义变量，不能动态绑定，不能删除变量，不能重名、不能八进制</p>
+<p>​    注释与语句：(”// “or“ /<em> 回车 </em>/”），一行一条语句，代码块（大分号），分号结尾</p>
+<p>​    关键字与保留字    </p>
+<p>1.2 数据类型</p>
+<p>​    变量（省略Var会变为全局）</p>
+<p>​    数据类型的分类</p>
+<p>​        简单数据类型：Undefined(无定义变量）/Unll（缺少对象)/String/Number（整数和浮点数，E)(Number.Max_VALUE,MIN_VALUE,Infinity,isFinite())(NaN,isNaN())/Boolean(判断，true，false）</p>
+<p>​        复杂数据类型：Object()</p>
+<p>​    typeof(操作符)：检查数据类型</p>
+<p>1.3 操作符</p>
+<p>​    一元操作符：只能操作一个值的操作符。前置后置，递增递减</p>
+<p>​    位操作符</p>
+<p>​    布尔操作符：非！，与&amp;&amp;，或||</p>
+<p>​    四则运算操作符：</p>
+<p>​    关系操作符：===（全等，包括类型）；==（普通等，不包括类型）</p>
+<p>​    条件操作符：var a=（a&gt;b?a:b)</p>
+<p>​    赋值操作符</p>
+<p>​    逗号操作符<br> 学习仍在继续，不定时更新</p>
+<p>​    </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Nodejs开放知识体系图&quot;&gt;&lt;a href=&quot;#Nodejs开放知识体系图&quot; class=&quot;headerlink&quot; title=&quot;Nodejs开放知识体系图&quot;&gt;&lt;/a&gt;Nodejs开放知识体系图&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;首先感谢极客学院的课程，这里写下自学的笔记
+    
+    </summary>
+    
+    
+      <category term="自学-后端语言" scheme="http://yoursite.com/tags/%E8%87%AA%E5%AD%A6-%E5%90%8E%E7%AB%AF%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一句</title>
+    <link href="http://yoursite.com/2017/03/31/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5/"/>
+    <id>http://yoursite.com/2017/03/31/每日一句/</id>
+    <published>2017-03-31T03:22:28.009Z</published>
+    <updated>2017-03-31T03:31:55.482Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    收入只是你工作的副产品，做好你该做的事，出色完成你该完成的工作，理想的薪金必然会来。而更为重要的是，我们劳苦的最高报酬，不在于我们所获得的，而在于我们会因此成为什么。——约翰·D·洛克菲勒</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​    收入只是你工作的副产品，做好你该做的事，出色完成你该完成的工作，理想的薪金必然会来。而更为重要的是，我们劳苦的最高报酬，不在于我们所获得的，而在于我们会因此成为什么。——约翰·D·洛克菲勒&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="思想" scheme="http://yoursite.com/tags/%E6%80%9D%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>窗外</title>
