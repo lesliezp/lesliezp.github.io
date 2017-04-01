@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-03-31T14:48:34.255Z</updated>
+  <updated>2017-04-01T14:44:44.803Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/03/31/%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0-nodejs%E5%BC%80%E6%94%BE%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E5%9B%BE/"/>
     <id>http://yoursite.com/2017/03/31/自学笔记-nodejs开放知识体系图/</id>
     <published>2017-03-31T13:31:43.095Z</published>
-    <updated>2017-03-31T14:48:34.255Z</updated>
+    <updated>2017-04-01T14:44:44.803Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Nodejs开放知识体系图"><a href="#Nodejs开放知识体系图" class="headerlink" title="Nodejs开放知识体系图"></a>Nodejs开放知识体系图</h1><hr>
 <p>首先感谢极客学院的课程，这里写下自学的笔记及学习的感悟等。<strong>本文禁止转载及商用</strong></p>
@@ -45,7 +45,27 @@
 <p>​    关系操作符：===（全等，包括类型）；==（普通等，不包括类型）</p>
 <p>​    条件操作符：var a=（a&gt;b?a:b)</p>
 <p>​    赋值操作符</p>
-<p>​    逗号操作符<br> 学习仍在继续，不定时更新</p>
+<p>​    逗号操作符</p>
+<p>2.Node.js 编程：语句、函数与变量（学习时间：2017/4/1）</p>
+<p>2.1 语句</p>
+<p>​    条件语句：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">if(numAge &lt;= 12)&#123;</div><div class="line">  //语句</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">if(numAge &lt;= 12)&#123;</div><div class="line">  //语句</div><div class="line">&#125; else &#123;</div><div class="line">  //语句</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>​    循环语句：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">while(布尔表达式)&#123;</div><div class="line">  //循环语句块</div><div class="line">  //同时修改布尔表达式的结果</div><div class="line">&#125;</div><div class="line"></div><div class="line">do&#123;</div><div class="line">  //循环语句块</div><div class="line">  //同时修改布尔表达式的结果</div><div class="line">&#125; while（布尔表达式）</div><div class="line"></div><div class="line">for(var i=0; i&lt;=numMAX; i++)&#123;</div><div class="line">  //循环语句块</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>​    分支语句：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">switch(表达式，变量或值)&#123;</div><div class="line">  case 值或表达式：</div><div class="line">  	//语句</div><div class="line">  	break；</div><div class="line">  case 值或表达式：</div><div class="line">  	//语句</div><div class="line">  	break；</div><div class="line">  default：</div><div class="line">  	//语句</div><div class="line">  	break；</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>​    break与continue：</p>
+<p>​    label语句：</p>
+<p>2.2 函数</p>
+<p>​    基本使用：定义（fuction sum（numA,numB）var sum = funtion(numA,nummB)</p>
+<p>​    参数 arguments/按值传递</p>
+<p>​    特点 匿名函数；回调函数；属性方法    </p>
+<p>2.3 变量</p>
+<p>​    基本类型的值</p>
+<p>​    引用类型的值</p>
+<p>​    定义、定义提取、全局变量定义、常量定义后不变</p>
+<p> 学习仍在继续，不定时更新</p>
 <p>​    </p>
 ]]></content>
     
