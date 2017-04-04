@@ -310,7 +310,7 @@
               
                 
                 <a class="post-title-link" href="/2017/03/31/自学笔记-nodejs开放知识体系图/" itemprop="url">
-                  自学笔记-Nodejs开放知识体系图
+                  自学笔记-Node.js
                 </a>
               
             
@@ -344,7 +344,7 @@
 
           
           
-             <span id="/2017/03/31/自学笔记-nodejs开放知识体系图/" class="leancloud_visitors" data-flag-title="自学笔记-Nodejs开放知识体系图">
+             <span id="/2017/03/31/自学笔记-nodejs开放知识体系图/" class="leancloud_visitors" data-flag-title="自学笔记-Node.js">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -375,9 +375,9 @@
       
         
           
-            <h1 id="Nodejs开放知识体系图"><a href="#Nodejs开放知识体系图" class="headerlink" title="Nodejs开放知识体系图"></a>Nodejs开放知识体系图</h1><hr>
-<p>首先感谢极客学院的课程，这里写下自学的笔记及学习的感悟等。<strong>本文禁止转载及商用</strong></p>
-<p>一.预备知识（本阶段主要介绍JavaScript的一些基本知识。</p>
+            <h1 id="Node-js开放知识体系图"><a href="#Node-js开放知识体系图" class="headerlink" title="Node.js开放知识体系图"></a>Node.js开放知识体系图</h1><hr>
+<p>首先感谢极客学院的课程，这里写下自学的笔记及学习的感悟等。<strong>本文禁止转载及商用</strong>。</p>
+<p>一.预备知识（本阶段主要介绍JavaScript的一些基本知识。）</p>
 <p>1.Node.js编程：JavaScript的语言基础（学习时间：2017/3/31）</p>
 <p>1.1 语法</p>
 <p>​    标识符（变量名/函数名/对象名/对象的成员名/函数参数）：大小敏感、匈牙利命名法（类型+表意）</p>
@@ -402,12 +402,12 @@
 <p>2.Node.js 编程：语句、函数与变量（学习时间：2017/4/1）</p>
 <p>2.1 语句</p>
 <p>​    条件语句：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">if(numAge &lt;= 12)&#123;</div><div class="line">  //语句</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">if(numAge &lt;= 12)&#123;</div><div class="line">  //语句</div><div class="line">&#125; else &#123;</div><div class="line">  //语句</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(numAge &lt;= <span class="number">12</span>)&#123;</div><div class="line">  <span class="comment">//语句</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(numAge &lt;= <span class="number">12</span>)&#123;</div><div class="line">  <span class="comment">//语句</span></div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">  <span class="comment">//语句</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>​    循环语句：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">while(布尔表达式)&#123;</div><div class="line">  //循环语句块</div><div class="line">  //同时修改布尔表达式的结果</div><div class="line">&#125;</div><div class="line"></div><div class="line">do&#123;</div><div class="line">  //循环语句块</div><div class="line">  //同时修改布尔表达式的结果</div><div class="line">&#125; while（布尔表达式）</div><div class="line"></div><div class="line">for(var i=0; i&lt;=numMAX; i++)&#123;</div><div class="line">  //循环语句块</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">while</span>(布尔表达式)&#123;</div><div class="line">  <span class="comment">//循环语句块</span></div><div class="line">  <span class="comment">//同时修改布尔表达式的结果</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">do</span>&#123;</div><div class="line">  <span class="comment">//循环语句块</span></div><div class="line">  <span class="comment">//同时修改布尔表达式的结果</span></div><div class="line">&#125; <span class="keyword">while</span>（布尔表达式）</div><div class="line"></div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>; i&lt;=numMAX; i++)&#123;</div><div class="line">  <span class="comment">//循环语句块</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>​    分支语句：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">switch(表达式，变量或值)&#123;</div><div class="line">  case 值或表达式：</div><div class="line">  	//语句</div><div class="line">  	break；</div><div class="line">  case 值或表达式：</div><div class="line">  	//语句</div><div class="line">  	break；</div><div class="line">  default：</div><div class="line">  	//语句</div><div class="line">  	break；</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">switch</span>(表达式，变量或值)&#123;</div><div class="line">  <span class="keyword">case</span> 值或表达式：</div><div class="line">  	<span class="comment">//语句</span></div><div class="line">  	<span class="keyword">break</span>；</div><div class="line">  <span class="keyword">case</span> 值或表达式：</div><div class="line">  	<span class="comment">//语句</span></div><div class="line">  	<span class="keyword">break</span>；</div><div class="line">  <span class="keyword">default</span>：</div><div class="line">  	<span class="comment">//语句</span></div><div class="line">  	<span class="keyword">break</span>；</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>​    break与continue：</p>
 <p>​    label语句：</p>
 <p>2.2 函数</p>
@@ -418,6 +418,26 @@
 <p>​    基本类型的值</p>
 <p>​    引用类型的值</p>
 <p>​    定义、定义提取、全局变量定义、常量定义后不变</p>
+<p>3.Node.js 编程：ECMAScript 引用类型（学习时间：2017/4/2）</p>
+<p>3.1 Object 类型：作用（功能单一、传输数据、保存数值和方法）、初始化（构造函数、字面量方法）、访问</p>
+<p>3.2 基本包装类型：Boolean类型（对象）、string类型（slice取值、indexOf、trim去掉空格、toLowerCase、replace）、number类型（toFixed保留有效数字，toExponential科学计数、toPrecision）</p>
+<p>3.3 Global 对象：单体内置对象 Global（Infinity/NaN/undefined/null）</p>
+<p>3.4 Math 对象:Math.PI/Math.E/Math.SQRT2;Math.ceil()/Math.floor()/Math.round()</p>
+<p>4 Node.js 编程：ECMAScript 数组（学习时间：2017/4/3）</p>
+<p>4.1初始化和检查：array [1];检查 instanceof/array.isarray()</p>
+<p>4.2 转换与排序:    转化Object.key(obj).length;str.split(“ “);tostring();join(“ “)</p>
+<p>​                排序sort（），reverse（）</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">11</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">23</span>,<span class="number">55</span>,<span class="number">412</span>];</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">compareAB</span>(<span class="params">a,b</span>)</span>&#123;</div><div class="line">  <span class="keyword">if</span>(a &gt; b)&#123;</div><div class="line">    <span class="keyword">return</span> <span class="number">1</span>;</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a === b)&#123;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">arr.sort(compareAB);</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'after sort: '</span>, arr);</div></pre></td></tr></table></figure>
+<p>4.3 栈和队列操作:</p>
+<p>栈：push()加入;pop()取出</p>
+<p>队列： shift（）从头部取出；unshift（）添加到头部</p>
+<p>4.4 其它操作（介绍数组引用类型中，数组的连接、切片，以及数组成员的删除、插入、替换、索引查询、迭代和归纳等操作）</p>
+<p>concat();slice()不影响本身;splice()影响本身；IndexOf、lastIndexOf;every()/sonme()/forEach()</p>
+<p>二、基础知识（本阶段介绍了什么是Node.js，以及怎么运行其应用程序。）</p>
+<p>1.初识 Node.js（学习时间：2017/4/4）</p>
+<p>1.1 认识 Node.js</p>
+<p>1.2 Node.js 与 JavaScript 的关系</p>
+<p>1.3 Node.js 的特点</p>
 <p> 学习仍在继续，不定时更新</p>
 <p>​    </p>
 
